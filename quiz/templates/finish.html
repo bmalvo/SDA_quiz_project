@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+<div class="container">
+
+{% block content %}
+
+    <div class="row clearfix">
+    </div>
+    <div class="jumbotron">
+        <h1>Ukończyłeś quiz!</h1>
+        <h2>Twój wynik to:</h2>
+        {{ correct_answers }} / {{ all_questions }}
+    </div>
+</div>
+</div>
+
+{% endblock %}
